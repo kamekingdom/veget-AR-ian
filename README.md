@@ -1,7 +1,7 @@
 # vegetARian 🍆🥕🥬
 
-**A playful AR cooking game where players prepare vegetables using augmented reality cards in the real world.**  
-Experience a new kind of gameplay that blends digital interaction with physical gestures, using AR markers as your kitchen tools.
+**An interactive AR-based cooking game built with Processing and NyARToolkit, where players prepare virtual vegetables in real space using marker cards.**  
+This playful experience combines object recognition, motion-based interaction, and sound feedback into a real-time augmented cooking game.
 
 ---
 
@@ -11,35 +11,38 @@ Experience a new kind of gameplay that blends digital interaction with physical 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Development Stack](#development-stack)
+- [Demo](#demo)
 - [License](#license)
 
 ---
 
 ## 🥗 Overview
 
-**vegetARian** is an augmented reality (AR) card game that turns vegetable cooking into an interactive physical-digital experience.  
-Players use printed AR markers to manipulate virtual vegetables, simulating chopping, boiling, and serving through hand movements.  
-Designed as both an entertainment and educational tool, the game encourages healthy food choices while exploring spatial interaction via AR.
+**vegetARian** is a marker-based AR cooking game developed with Processing.  
+Players interact with real-world printed markers to "harvest" virtual vegetables and cook them using bullets symbolizing kitchen tools like pans, knives, and microwaves.  
+The game combines real-time 3D object rendering, AR detection, sound effects, and interactive gameplay through keyboard and camera input.
 
 ---
 
 ## 🌟 Features
 
-- 🥕 **AR Cooking Gameplay**: Prepare vegetables by physically moving AR markers, simulating real cooking actions.
-- 🃏 **Marker-Based Interaction**: Use printed cards (AR markers) as utensils, ingredients, or tools.
-- 🎮 **Immersive UX**: Real-time feedback and visual effects enhance the sense of touch and responsiveness.
-- 📱 **Cross-platform Build**: Developed with Unity and supports WebCam-based AR using libraries such as Vuforia or AR.js.
-- 🍽️ **Game + Education**: Designed to be fun, while teaching players about food, cooking, and healthy eating.
+- 🔍 **AR Marker Tracking**: Uses NyARToolkit (`nyar4psg`) for marker detection
+- 🥬 **Vegetable Recognition**: Players detect and collect the correct vegetables as shown in the recipe
+- 🔫 **Cooking Phase with Bullets**: Type the correct key to activate cooking tools and process the ingredients
+- 🎵 **Sound Feedback**: Audio changes by phase and includes success/failure effects
+- 📸 **Camera Input**: Real-time AR using webcam with `processing.video` library
+- 🕹️ **Mini-game Structure**: Includes harvest, instruction, cooking, and result phases
 
 ---
 
 ## ⚙️ Installation
 
-> Clone the repository and open it in Unity (version XX.X.X or later).  
-> Make sure you have AR support enabled (e.g., Vuforia or WebAR setup).
-
+1. Download and install [Processing](https://processing.org/)
+2. Install the following libraries via the Processing Contribution Manager:
+   - `NyAR4psg` (NyARToolkit for Processing)
+   - `processing.video`
+   - `processing.sound`
+3. Clone or download this repository:
 ```bash
-git clone https://github.com/your-username/vegetARian.git
-cd vegetARian
-# Open with Unity Hub
+git clone https://github.com/kamekingdom/vegetARian.git
