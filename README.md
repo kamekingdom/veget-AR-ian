@@ -5,18 +5,6 @@ This playful experience combines object recognition, motion-based interaction, a
 
 ---
 
-## 📚 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Development Stack](#development-stack)
-- [Demo](#demo)
-- [License](#license)
-
----
-
 ## 🥗 Overview
 
 **vegetARian** is a marker-based AR cooking game developed with Processing.  
