@@ -1,4 +1,4 @@
-# vegetARian 🍆🥕🥬
+# vegetARian (2022) 🍆🥕🥬
 
 **An interactive AR-based cooking game built with Processing and NyARToolkit, where players prepare virtual vegetables in real space using marker cards.**  
 This playful experience combines object recognition, motion-based interaction, and sound feedback into a real-time augmented cooking game.
