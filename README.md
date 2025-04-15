@@ -1,32 +1,45 @@
-# vegetARian
+# vegetARian 🍆🥕🥬
 
-[ARマーカーを用いて現実空間でカードゲーム]
+**A playful AR cooking game where players prepare vegetables using augmented reality cards in the real world.**  
+Experience a new kind of gameplay that blends digital interaction with physical gestures, using AR markers as your kitchen tools.
 
-## 目次
+---
 
-- [概要](#概要)
-- [特徴](#特徴)
-- [インストール](#インストール)
-- [使用方法](#使用方法)
-- [貢献](#貢献)
-- [ライセンス](#ライセンス)
+## 📚 Table of Contents
 
-## 概要
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-[プロジェクトの概要や背景情報をここに挿入する。プロジェクトの目的、問題の解決方法、および利点を説明する]
+---
 
-## 特徴
+## 🥗 Overview
 
-- [プロジェクトの特徴やハイライトを箇条書きで列挙する]
-- [例: 高速なパフォーマンス、使いやすいインターフェース、拡張可能なアーキテクチャなど]
+**vegetARian** is an augmented reality (AR) card game that turns vegetable cooking into an interactive physical-digital experience.  
+Players use printed AR markers to manipulate virtual vegetables, simulating chopping, boiling, and serving through hand movements.  
+Designed as both an entertainment and educational tool, the game encourages healthy food choices while exploring spatial interaction via AR.
 
-## インストール
+---
 
-[プロジェクトのインストール手順をここに挿入する。依存関係や環境要件についても記述する]
+## 🌟 Features
 
-```
-git init // ローカルリポジトリ作成
-git add 「ファイル名」 or 「.」　// インデックスへ追加
-git commit -m "メッセージ" // コミット
-git push
-```
+- 🥕 **AR Cooking Gameplay**: Prepare vegetables by physically moving AR markers, simulating real cooking actions.
+- 🃏 **Marker-Based Interaction**: Use printed cards (AR markers) as utensils, ingredients, or tools.
+- 🎮 **Immersive UX**: Real-time feedback and visual effects enhance the sense of touch and responsiveness.
+- 📱 **Cross-platform Build**: Developed with Unity and supports WebCam-based AR using libraries such as Vuforia or AR.js.
+- 🍽️ **Game + Education**: Designed to be fun, while teaching players about food, cooking, and healthy eating.
+
+---
+
+## ⚙️ Installation
+
+> Clone the repository and open it in Unity (version XX.X.X or later).  
+> Make sure you have AR support enabled (e.g., Vuforia or WebAR setup).
+
+```bash
+git clone https://github.com/your-username/vegetARian.git
+cd vegetARian
+# Open with Unity Hub
